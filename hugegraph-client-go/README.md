@@ -10,8 +10,9 @@
 
 #### 安装教程
 
-```shell
-go get github.com/apache/incubator-hugegraph-toolchain/hugegraph-client-go
+```bash
+# 测试阶段使用单独的分支, 后续 master 合入后可去掉 tag
+go get github.com/apache/incubator-hugegraph-toolchain/hugegraph-client-go@tmp-go
 ```
 
 #### 实现 API
